@@ -238,3 +238,7 @@ select[data-q='number_of_passengers'].input-error {
 select[data-q='number_of_passengers'].is-placeholder {
   color: #8C8C8C !important;
 }
+
+.ghl-form-wrap {
+  margin-bottom: 0 !important;  /* or any value you prefer */
+}
