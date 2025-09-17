@@ -1343,7 +1343,3 @@ window.__tpFix = function(){
 };
 
 });
-
-
-
-</style>
