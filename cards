@@ -1,0 +1,28 @@
+/* Airport Transfers – feature list additions for tour cards */
+.tour-card .tour-features{
+  display:grid;
+  gap:8px;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.tour-card .tour-feature{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+  color:var(--muted);
+}
+
+.tour-card .tour-feature .ico{
+  width:18px;
+  height:18px;
+  display:inline-block;
+  flex:0 0 18px;
+  color:var(--accent); /* icon color */
+}
+
+/* Optional: tighten spacing since we removed the old meta row */
+.tour-card .tour-body{ gap:8px; }
+.tour-card .tour-body h3{ margin-bottom:2px; }
